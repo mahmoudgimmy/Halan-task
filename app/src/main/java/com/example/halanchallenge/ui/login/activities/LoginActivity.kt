@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
 import com.example.halanchallenge.databinding.ActivityLoginBinding
-import com.example.halanchallenge.model.Credentials
+import com.example.halanchallenge.model.LoginCredentials
 import com.example.halanchallenge.ui.login.viewmodels.LoginViewModel
 import com.example.halanchallenge.ui.login.viewmodels.LoginViewState
 import org.koin.android.viewmodel.ext.android.viewModel
@@ -37,7 +37,7 @@ class LoginActivity : AppCompatActivity() {
                 is LoginViewState.LOADING -> pbLoading.isVisible = true
                 is LoginViewState.SUCCESS -> {
                     pbLoading.isVisible = false
-
+                    viewState.payload
                 }
 
                 is LoginViewState.FAILURE -> {
@@ -58,9 +58,9 @@ class LoginActivity : AppCompatActivity() {
         binding.apply {
             btnLogin.setOnClickListener {
                 viewModel.login(
-                    Credentials(
+                    LoginCredentials(
                         userName = etUsername.text.toString(),
-                        etPassword.text.toString()
+                        password = etPassword.text.toString()
                     )
                 )
             }

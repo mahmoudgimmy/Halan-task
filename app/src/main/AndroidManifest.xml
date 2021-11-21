@@ -15,7 +15,7 @@
 
         <activity android:name=".ProductDetailsActivity"/>
         <activity android:name=".ProductsListActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".ui.login.activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
