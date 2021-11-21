@@ -1,6 +1,6 @@
 package com.example.halanchallenge.di
 
-import com.example.halanchallenge.local.HalanRemote
+import com.example.halanchallenge.remote.HalanRemote
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

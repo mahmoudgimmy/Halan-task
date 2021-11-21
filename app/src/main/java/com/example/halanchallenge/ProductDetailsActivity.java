@@ -1,24 +1,23 @@
 package com.example.halanchallenge;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.PagerSnapHelper;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.SnapHelper;
-
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.arindicatorview.ARIndicatorView;
+import com.example.halanchallenge.model.Product;
 
 
 public class ProductDetailsActivity extends AppCompatActivity {
 
     Product product;
 
-    TextView description,title,price;
+    TextView description, title, price;
     Button back;
     ARIndicatorView indicatorView;
 
@@ -33,7 +32,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
         description = findViewById(R.id.product_description_tv);
         title = findViewById(R.id.product_title_tv);
-        back =findViewById(R.id.materialButton);
+        back = findViewById(R.id.materialButton);
         price = findViewById(R.id.product_price_tv);
         imagesListRV = findViewById(R.id.product_images_banner);
         indicatorView = findViewById(R.id.ar_indicator);
@@ -47,15 +46,15 @@ public class ProductDetailsActivity extends AppCompatActivity {
                 finish();
             }
         });
-        description.setText(product.deal_description);
-        title.setText(product.name_ar);
+        description.setText(product.getDealDescription());
+        title.setText(product.getArName());
         description.setMovementMethod(new ScrollingMovementMethod());
-        price.setText("كاش"+"           "+product.price+"جنيه");
+        price.setText("كاش" + "           " + product.getPrice() + "جنيه");
 
-        imagesAdapter = new ImagesAdapter(this,product.images);
+        imagesAdapter = new ImagesAdapter(this, product.getImages());
         imagesListRV.setAdapter(imagesAdapter);
 
-        indicatorView.attachTo(imagesListRV,true);
+        indicatorView.attachTo(imagesListRV, true);
 
     }
 

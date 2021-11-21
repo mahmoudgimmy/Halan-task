@@ -13,6 +13,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.halanchallenge.model.Product;
 
 import java.util.List;
 
@@ -44,8 +45,8 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
     public void onBindViewHolder(ViewHolder holder, int position) {
         Product item = mData.get(position);
         if (item != null){
-            holder.myTextView.setText(item.name_ar);
-            Glide.with(holder.productImageView.getContext()).load(item.image).into(holder.productImageView);
+            holder.myTextView.setText(item.getArName());
+            Glide.with(holder.productImageView.getContext()).load(item.getImage()).into(holder.productImageView);
             holder.moreButton.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View view) {

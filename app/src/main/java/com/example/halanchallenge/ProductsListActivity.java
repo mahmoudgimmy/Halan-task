@@ -52,7 +52,7 @@ public class ProductsListActivity extends AppCompatActivity {
         userIV= findViewById(R.id.user_iv);
         logoutIV = findViewById(R.id.logoutIV);
 
-        Glide.with(this).load(loginResponse.profile.image).into(userIV);
+        Glide.with(this).load(loginResponse.profile.getImage()).into(userIV);
 
         productsListRV = findViewById(R.id.products_list_rv);
 
@@ -94,9 +94,9 @@ public class ProductsListActivity extends AppCompatActivity {
                     }
                 });
 
-        userName.setText(loginResponse.profile.name);
-        phoneNumber.setText(loginResponse.profile.phone);
-        email.setText(loginResponse.profile.email);
+        userName.setText(loginResponse.profile.getName());
+        phoneNumber.setText(loginResponse.profile.getPhone());
+        email.setText(loginResponse.profile.getEmail());
 
 
     }
