@@ -1,0 +1,219 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/781ffdf787b82b0a40e07726a3160af2/core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/4bee9564cc2b77ade035fc46873e135c/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/1f8349be20539fe5e5a622d5fa1cf9bd/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.martinstamenkovski:ARIndicatorView:2.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/df27967cd161fa3b1bed221db6aa616e/jetified-ARIndicatorView-2.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/dd6d7e57b3bf1b45f2bc1f69bbca30a5/jetified-android-networking-1.0.2/AndroidManifest.xml:18:1-27:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/454e2599e7caa3e1734302c4089013d2/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/5df77a616e9378768d7bed4dcab32cbf/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c7bc9c25cc0bc0b184e3846f514035ca/glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/22f276348879eb43ec3dbb4298728b99/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/98366c5a70952638d2525ea27c607547/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/ee4afd18b8ac2383fba46ca85ef3e13c/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e3cac5329066fa9104dd171e2fc5dc79/appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/03aa5b723e5869bfb2d4242f24aac107/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/5721b81cff49d44781c2c4478ff5deeb/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/980be82b1c9dcf4af29c5d17de7d65d8/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/f4d2750c7e4c259a7b1868849b01336f/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/f26108e3e768c9f1655656ab0719c0d4/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6c40188b17a20d0a0b47ee91c75af5ea/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c9d11bbe61e13069a560950110e016bc/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/b38a4c0334a20f9f2cb77b53a8b71701/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/de487bca11fbabea48056ae51a60ccbd/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/991b0516aee401381739d6548481605b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6daefba1430d4987b66dea826eb2b839/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/af154df0697a6b2eaa0d8bdf3e3fb51c/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/479d4311df440b865a35e11ae420994b/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6133601118baf7ce74ac0a8bc7422520/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/ccc1d316aaa60b6f2ad0332466725e37/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/43404624b6bd9803012ad40ab721bc4b/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c604bbce71469635e4a54ff1a63db8d3/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/0d80f964913337fe2b36ee89bef68454/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e1966ac25a815504b20a209209cc29f0/gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/f1af09fb83f02c84112cd676c477e7fc/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6631310c57563a7cb3029ce2f2216cd6/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/68764d1bc4edfd3f0fe5ef940503b81e/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/77f0eede80034354161104743aa1104c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/97619abb265e872c5efc70cfc1a0b48b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/7c7b35bbcf1654e8e8187a04b6cf78c8/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e8f0acaae729b565a4d0fca4d2eda0f0/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/4161f8121cf975e44e018dc3c1f0f098/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/11dec527fdc6347c4d6a42bffc6503c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e5aa20899b89f0975401a2c427907cad/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/206946c601b727d48743560e516a422f/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:7:5-23:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/4bee9564cc2b77ade035fc46873e135c/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/4bee9564cc2b77ade035fc46873e135c/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/1f8349be20539fe5e5a622d5fa1cf9bd/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/1f8349be20539fe5e5a622d5fa1cf9bd/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/5df77a616e9378768d7bed4dcab32cbf/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/5df77a616e9378768d7bed4dcab32cbf/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c7bc9c25cc0bc0b184e3846f514035ca/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c7bc9c25cc0bc0b184e3846f514035ca/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/af154df0697a6b2eaa0d8bdf3e3fb51c/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/af154df0697a6b2eaa0d8bdf3e3fb51c/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e1966ac25a815504b20a209209cc29f0/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e1966ac25a815504b20a209209cc29f0/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6631310c57563a7cb3029ce2f2216cd6/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6631310c57563a7cb3029ce2f2216cd6/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/af154df0697a6b2eaa0d8bdf3e3fb51c/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:13:9-52
+activity#com.example.halanchallenge.ProductDetailsActivity
+ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:15:9-59
+	android:name
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:15:19-57
+activity#com.example.halanchallenge.ProductsListActivity
+ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:16:9-58
+	android:name
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:16:19-55
+activity#com.example.halanchallenge.LoginActivity
+ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:17:9-22:20
+	android:name
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:17:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/781ffdf787b82b0a40e07726a3160af2/core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/781ffdf787b82b0a40e07726a3160af2/core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/4bee9564cc2b77ade035fc46873e135c/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/4bee9564cc2b77ade035fc46873e135c/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/1f8349be20539fe5e5a622d5fa1cf9bd/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/1f8349be20539fe5e5a622d5fa1cf9bd/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.martinstamenkovski:ARIndicatorView:2.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/df27967cd161fa3b1bed221db6aa616e/jetified-ARIndicatorView-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.martinstamenkovski:ARIndicatorView:2.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/df27967cd161fa3b1bed221db6aa616e/jetified-ARIndicatorView-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/dd6d7e57b3bf1b45f2bc1f69bbca30a5/jetified-android-networking-1.0.2/AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/dd6d7e57b3bf1b45f2bc1f69bbca30a5/jetified-android-networking-1.0.2/AndroidManifest.xml:23:5-25:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/454e2599e7caa3e1734302c4089013d2/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/454e2599e7caa3e1734302c4089013d2/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/5df77a616e9378768d7bed4dcab32cbf/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/5df77a616e9378768d7bed4dcab32cbf/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c7bc9c25cc0bc0b184e3846f514035ca/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c7bc9c25cc0bc0b184e3846f514035ca/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/22f276348879eb43ec3dbb4298728b99/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/22f276348879eb43ec3dbb4298728b99/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/98366c5a70952638d2525ea27c607547/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/98366c5a70952638d2525ea27c607547/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/ee4afd18b8ac2383fba46ca85ef3e13c/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/ee4afd18b8ac2383fba46ca85ef3e13c/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e3cac5329066fa9104dd171e2fc5dc79/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e3cac5329066fa9104dd171e2fc5dc79/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/03aa5b723e5869bfb2d4242f24aac107/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/03aa5b723e5869bfb2d4242f24aac107/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/5721b81cff49d44781c2c4478ff5deeb/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/5721b81cff49d44781c2c4478ff5deeb/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/980be82b1c9dcf4af29c5d17de7d65d8/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/980be82b1c9dcf4af29c5d17de7d65d8/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/f4d2750c7e4c259a7b1868849b01336f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/f4d2750c7e4c259a7b1868849b01336f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/f26108e3e768c9f1655656ab0719c0d4/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/f26108e3e768c9f1655656ab0719c0d4/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6c40188b17a20d0a0b47ee91c75af5ea/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6c40188b17a20d0a0b47ee91c75af5ea/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c9d11bbe61e13069a560950110e016bc/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c9d11bbe61e13069a560950110e016bc/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/b38a4c0334a20f9f2cb77b53a8b71701/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/b38a4c0334a20f9f2cb77b53a8b71701/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/de487bca11fbabea48056ae51a60ccbd/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/de487bca11fbabea48056ae51a60ccbd/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/991b0516aee401381739d6548481605b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/991b0516aee401381739d6548481605b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6daefba1430d4987b66dea826eb2b839/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6daefba1430d4987b66dea826eb2b839/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/af154df0697a6b2eaa0d8bdf3e3fb51c/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/af154df0697a6b2eaa0d8bdf3e3fb51c/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/479d4311df440b865a35e11ae420994b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/479d4311df440b865a35e11ae420994b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6133601118baf7ce74ac0a8bc7422520/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6133601118baf7ce74ac0a8bc7422520/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/ccc1d316aaa60b6f2ad0332466725e37/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/ccc1d316aaa60b6f2ad0332466725e37/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/43404624b6bd9803012ad40ab721bc4b/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/43404624b6bd9803012ad40ab721bc4b/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c604bbce71469635e4a54ff1a63db8d3/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/c604bbce71469635e4a54ff1a63db8d3/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/0d80f964913337fe2b36ee89bef68454/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/0d80f964913337fe2b36ee89bef68454/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e1966ac25a815504b20a209209cc29f0/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e1966ac25a815504b20a209209cc29f0/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/f1af09fb83f02c84112cd676c477e7fc/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/f1af09fb83f02c84112cd676c477e7fc/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6631310c57563a7cb3029ce2f2216cd6/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/6631310c57563a7cb3029ce2f2216cd6/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/68764d1bc4edfd3f0fe5ef940503b81e/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/68764d1bc4edfd3f0fe5ef940503b81e/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/77f0eede80034354161104743aa1104c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/77f0eede80034354161104743aa1104c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/97619abb265e872c5efc70cfc1a0b48b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/97619abb265e872c5efc70cfc1a0b48b/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/7c7b35bbcf1654e8e8187a04b6cf78c8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/7c7b35bbcf1654e8e8187a04b6cf78c8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e8f0acaae729b565a4d0fca4d2eda0f0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e8f0acaae729b565a4d0fca4d2eda0f0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/4161f8121cf975e44e018dc3c1f0f098/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/4161f8121cf975e44e018dc3c1f0f098/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/11dec527fdc6347c4d6a42bffc6503c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/11dec527fdc6347c4d6a42bffc6503c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e5aa20899b89f0975401a2c427907cad/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/e5aa20899b89f0975401a2c427907cad/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/206946c601b727d48743560e516a422f/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mohammedtag/.gradle/caches/transforms-2/files-2.1/206946c601b727d48743560e516a422f/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/AndroidManifest.xml

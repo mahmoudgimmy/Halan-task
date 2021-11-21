@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_outlined_logout.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/generated/res/pngs/debug/drawable-ldpi/ic_outlined_logout.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/layout_activity_product_details.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/layout/activity_product_details.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_outlined_logout.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_outlined_logout.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_outlined_logout.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_outlined_logout.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/layout_image_view_item.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/layout/image_view_item.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_outlined_logout.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_outlined_logout.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_outlined_logout.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_outlined_logout.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_outlined_logout.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/generated/res/pngs/debug/drawable-mdpi/ic_outlined_logout.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_outlined_logout.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/generated/res/pngs/debug/drawable-hdpi/ic_outlined_logout.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/layout_product_item.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/layout/product_item.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/layout_activity_products_list.xml.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/layout/activity_products_list.xml"
+    },
+    {
+        "merged": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/mohammedtag/Halan_Prjects/Halan_Challenge/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

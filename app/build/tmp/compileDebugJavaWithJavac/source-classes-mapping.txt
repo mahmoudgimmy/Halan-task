@@ -1,0 +1,33 @@
+com/example/halanchallenge/Profile.java
+ com.example.halanchallenge.Profile
+com/example/halanchallenge/ProductsList.java
+ com.example.halanchallenge.Product
+ com.example.halanchallenge.Product$1
+ com.example.halanchallenge.ProductsList
+com/example/halanchallenge/BuildConfig.java
+ com.example.halanchallenge.BuildConfig
+com/example/halanchallenge/ProductsListActivity.java
+ com.example.halanchallenge.ProductsListActivity
+ com.example.halanchallenge.ProductsListActivity$1
+ com.example.halanchallenge.ProductsListActivity$2
+ com.example.halanchallenge.ProductsListActivity$2$1
+com/example/halanchallenge/LoginResponse.java
+ com.example.halanchallenge.LoginResponse
+com/example/halanchallenge/ImagesAdapter.java
+ com.example.halanchallenge.ImagesAdapter
+ com.example.halanchallenge.ImagesAdapter$ViewHolder
+com/example/halanchallenge/ProductsAdapter.java
+ com.example.halanchallenge.ProductsAdapter
+ com.example.halanchallenge.ProductsAdapter$1
+ com.example.halanchallenge.ProductsAdapter$ItemClickListener
+ com.example.halanchallenge.ProductsAdapter$ViewHolder
+com/example/halanchallenge/ProductDetailsActivity.java
+ com.example.halanchallenge.ProductDetailsActivity
+ com.example.halanchallenge.ProductDetailsActivity$1
+com/example/halanchallenge/LoginActivity.java
+ com.example.halanchallenge.LoginActivity
+ com.example.halanchallenge.LoginActivity$1
+com/example/halanchallenge/LoginTask.java
+ com.example.halanchallenge.LoginTask
+com/example/halanchallenge/Login.java
+ com.example.halanchallenge.Login
