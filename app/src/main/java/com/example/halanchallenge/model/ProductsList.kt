@@ -4,8 +4,7 @@ import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
 
-@Parcelize
-data class ProductsList(val status: String, val products: List<Product>) : Parcelable
+data class ProductsList(val status: String, val products: List<Product>)
 
 @Parcelize
 data class Product(
