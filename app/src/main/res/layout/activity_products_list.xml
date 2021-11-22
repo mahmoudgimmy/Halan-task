@@ -1,115 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layoutDirection="rtl"
-    tools:context=".ProductsListActivity">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/header_cv"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="16dp"
-        android:layout_margin="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/products_title_tv"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layoutDirection="rtl"
-            android:paddingBottom="12dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <data>
 
-            <ImageView
-                android:id="@+id/logoutIV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/ic_outlined_logout"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.889"
-                app:layout_constraintStart_toEndOf="@+id/username_tv"
-                app:layout_constraintTop_toTopOf="parent" />
+        <variable
+            name="profile"
+            type="com.example.halanchallenge.model.Profile" />
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/user_iv"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="27dp"
-                android:layout_marginStart="14dp"
-                android:layout_marginBottom="31dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintDimensionRatio="1"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:src="@tools:sample/avatars" />
+    </data>
 
-            <TextView
-                android:id="@+id/email_tv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginTop="12dp"
-                android:textSize="16sp"
-                app:layout_constraintStart_toEndOf="@+id/user_iv"
-                app:layout_constraintTop_toBottomOf="@+id/phone_number_tv"
-                tools:text="asdsadsasdsdas" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="rtl"
+        tools:context=".ProductsListActivity">
 
-            <TextView
-                android:id="@+id/username_tv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:textSize="20sp"
-                android:textColor="@color/black"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/tv_products_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-                app:layout_constraintStart_toEndOf="@+id/user_iv"
-                app:layout_constraintTop_toTopOf="@+id/user_iv"
-                tools:text="asdsadsasdsdas" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layoutDirection="rtl"
+                android:paddingBottom="12dp">
 
-            <TextView
-                android:id="@+id/phone_number_tv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginTop="8dp"
-                android:textSize="16sp"
-                app:layout_constraintStart_toEndOf="@+id/user_iv"
-                app:layout_constraintTop_toBottomOf="@+id/username_tv"
-                tools:text="asdsadsasdsdas" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:id="@+id/logoutIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/ic_outlined_logout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.889"
+                    app:layout_constraintStart_toEndOf="@+id/tv_username"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/products_title_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="16dp"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:text="@string/my_products"
-        app:layout_constraintTop_toBottomOf="@id/header_cv"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="211dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_user"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginBottom="31dp"
+                    app:imageUrl="@{profile.image}"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:src="@tools:sample/avatars" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/products_list_rv"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="12dp"
-        tools:listitem="@layout/product_item"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:orientation = "vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/products_title_tv">
+                <TextView
+                    android:id="@+id/email_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@{profile.email}"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/iv_user"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_phone_number"
+                    tools:text="asdsadsasdsdas" />
 
-    </androidx.recyclerview.widget.RecyclerView>
+                <TextView
+                    android:id="@+id/tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:text="@{profile.name}"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@+id/iv_user"
+                    app:layout_constraintTop_toTopOf="@+id/iv_user"
+                    tools:text="asdsadsasdsdas" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:id="@+id/tv_phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@{profile.phone}"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/iv_user"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_username"
+                    tools:text="asdsadsasdsdas" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_products_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/my_products"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cv_header"
+            tools:layout_editor_absoluteY="211dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_products_list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_products_title"
+            tools:listitem="@layout/item_product">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
