@@ -1,6 +1,7 @@
 package com.example.halanchallenge.di
 
-import com.example.halanchallenge.remote.HalanRemote
+import com.example.halanchallenge.data.remote.AuthenticationInterceptor
+import com.example.halanchallenge.data.remote.HalanRemote
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -12,14 +13,15 @@ private const val BASE_URL: String = "https://assessment-sn12.halan.io/"
 
 // network module used for providing dependencies for calling apis, di used by koin
 val networkModule = module {
+    factory { AuthenticationInterceptor(get()) }
     single {
         HttpLoggingInterceptor().apply {
             level = HttpLoggingInterceptor.Level.BODY
         }
     }
-    single { provideOkHttpClient(get()) }
-    single { provideRetrofit(get()) }
-    single { provideRemoteStoreService(get()) }
+    factory { provideOkHttpClient(get(), get()) }
+    factory { provideRetrofit(get()) }
+    factory { provideRemoteStoreService(get()) }
 
 }
 
@@ -29,13 +31,16 @@ fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
 }
 
 fun provideOkHttpClient(
-    httpInterceptor: HttpLoggingInterceptor
+    httpInterceptor: HttpLoggingInterceptor,
+    authInterceptor: AuthenticationInterceptor,
 ): OkHttpClient {
 
     return OkHttpClient().newBuilder()
+        .addInterceptor(authInterceptor)
         .addInterceptor(httpInterceptor).build()
 }
 
-fun provideRemoteStoreService(retrofit: Retrofit): HalanRemote = retrofit.create(HalanRemote::class.java)
+fun provideRemoteStoreService(retrofit: Retrofit): HalanRemote =
+    retrofit.create(HalanRemote::class.java)
 
 
