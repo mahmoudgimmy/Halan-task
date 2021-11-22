@@ -1,12 +1,12 @@
 package com.example.halanchallenge.di
 
-import com.example.halanchallenge.ui.login.repositories.ILoginRepository
-import com.example.halanchallenge.ui.login.repositories.LoginRepository
-import com.example.halanchallenge.ui.productslist.repositories.IProductsList
-import com.example.halanchallenge.ui.productslist.repositories.ProductsListRepository
+import com.example.halanchallenge.ui.login.repositories.ILoginRepo
+import com.example.halanchallenge.ui.login.repositories.LoginRepo
+import com.example.halanchallenge.ui.productslist.repositories.IProductsListRepo
+import com.example.halanchallenge.ui.productslist.repositories.ProductsListRepo
 import org.koin.dsl.module
 
 val repositoriesModule = module {
-    single<ILoginRepository> { LoginRepository(get()) }
-    single<IProductsList> { ProductsListRepository(get()) }
+    single<ILoginRepo> { LoginRepo(get()) }
+    single<IProductsListRepo> { ProductsListRepo(get()) }
 }

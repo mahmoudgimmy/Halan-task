@@ -5,10 +5,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.halanchallenge.model.LoginCredentials
-import com.example.halanchallenge.ui.login.repositories.ILoginRepository
+import com.example.halanchallenge.ui.login.repositories.ILoginRepo
 import kotlinx.coroutines.launch
 
-class LoginViewModel(private val repository: ILoginRepository):ViewModel() {
+class LoginViewModel(private val repo: ILoginRepo):ViewModel() {
     private val _userData = MutableLiveData<LoginViewState>()
     val userData: LiveData<LoginViewState> = _userData
 
@@ -16,7 +16,7 @@ class LoginViewModel(private val repository: ILoginRepository):ViewModel() {
         try {
             _userData.value = LoginViewState.LOADING
 
-            val result = repository.login(loginCredentials)
+            val result = repo.login(loginCredentials)
             _userData.value = LoginViewState.SUCCESS(result)
         }
         catch (e:Exception){

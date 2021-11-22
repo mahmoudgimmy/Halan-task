@@ -4,6 +4,6 @@ import com.example.halanchallenge.model.LoginCredentials
 import com.example.halanchallenge.model.UserData
 
 
-interface ILoginRepository {
+interface ILoginRepo {
     suspend fun login(loginCredentials: LoginCredentials): UserData
 }
