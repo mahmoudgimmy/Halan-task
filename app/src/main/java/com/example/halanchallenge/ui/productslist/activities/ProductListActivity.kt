@@ -3,17 +3,18 @@ package com.example.halanchallenge.ui.productslist.activities
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import org.koin.android.viewmodel.ext.android.viewModel
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.halanchallenge.ProductDetailsActivity
 import com.example.halanchallenge.databinding.ActivityProductsListBinding
 import com.example.halanchallenge.model.Product
+import com.example.halanchallenge.ui.login.activities.LoginActivity
+import com.example.halanchallenge.ui.productdetails.ProductDetailsActivity
 import com.example.halanchallenge.ui.productslist.adapters.ItemProductClicks
 import com.example.halanchallenge.ui.productslist.adapters.ProductsAdapter
 import com.example.halanchallenge.ui.productslist.viewmodels.ProductsListViewModel
 import com.example.halanchallenge.ui.productslist.viewmodels.ProductsListViewState
+import org.koin.android.viewmodel.ext.android.viewModel
 
 class ProductListActivity : AppCompatActivity(), ItemProductClicks {
     lateinit var binding: ActivityProductsListBinding
@@ -76,13 +77,17 @@ class ProductListActivity : AppCompatActivity(), ItemProductClicks {
     }
 
     private fun getExtras() {
-        binding.profile = intent.extras?.getParcelable("Profile")
+        binding.profile = intent.extras?.getParcelable(LoginActivity.PROFILE)
     }
 
 
     override fun onProductClicked(product: Product) {
         startActivity(Intent(this, ProductDetailsActivity::class.java).apply {
-            putExtra("product", product)
+            putExtra(PRODUCT, product)
         })
+    }
+
+    companion object {
+      const val PRODUCT = "product"
     }
 }

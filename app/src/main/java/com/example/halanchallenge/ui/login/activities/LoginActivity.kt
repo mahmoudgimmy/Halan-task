@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
-import androidx.lifecycle.Observer
 import com.example.halanchallenge.data.local.SharedPreferencesManager
 import com.example.halanchallenge.databinding.ActivityLoginBinding
 import com.example.halanchallenge.model.LoginCredentials
@@ -49,7 +48,7 @@ class LoginActivity : AppCompatActivity() {
                             this@LoginActivity,
                             ProductListActivity::class.java
                         ).apply {
-                            putExtra("Profile", viewState.payload.profile)
+                            putExtra(PROFILE, viewState.payload.profile)
                         })
                     finish()
                 }
@@ -79,5 +78,9 @@ class LoginActivity : AppCompatActivity() {
                 )
             }
         }
+    }
+
+    companion object {
+        const val PROFILE = "profile"
     }
 }
