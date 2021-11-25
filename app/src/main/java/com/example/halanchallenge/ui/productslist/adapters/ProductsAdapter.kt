@@ -11,17 +11,15 @@ import com.example.halanchallenge.model.Product
 class ProductsAdapter(private val itemProductClicks: ItemProductClicks) :
     ListAdapter<Product, ProductsAdapter.ProductViewHolder>(DiffCheck.Products_DIFF_CALLBACK) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
-
-
-        return ProductViewHolder(
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder =
+        ProductViewHolder(
             ItemProductBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent,
                 false
             )
         )
-    }
+
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
         getItem(position)?.let { holder.bindTo(it, itemProductClicks) }
