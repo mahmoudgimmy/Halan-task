@@ -1,5 +1,5 @@
 # Halan-task
-## Halan task is a refactoing task used modern apis and libraries
+## Halan task is a refactoing task that has a login flow with product list and product details useing modern apis and libraries
 
 - **Kotlin** as a language for writing logic for features.
 - **Retrofit** for handling network api.
